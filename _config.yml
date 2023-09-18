@@ -18,17 +18,19 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://www.feimatu.com # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : 飞马兔
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
-
+  欢迎来到我的个人博客！
+  在这里，我分享了关于各种主题的文章，包括技术教程、旅行日志、生活经验和更多。探索我的博客，了解有关计算机科学、旅行冒险和生活见解的有趣内容。
+  我希望我的博客可以为您提供有价值的信息和启发，同时也欢迎您分享您的想法和评论。感谢您的访问！
+  飞马兔，我想表达我是一个像飞马一样快的一只兔子，在技术领域狂奔，是我自己的一个美好的愿望
 
 ## => Language and Timezone
 ##############################
 lang: zh # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
@@ -38,8 +40,8 @@ author:
   name      : mazepeng
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
+  bio       : 一个喜欢新鲜技术的99年属兔小伙
+  email     : 15911075184ma@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -55,7 +57,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: 15911075183ma/helpdoc
 repository_tree: master
 
 
@@ -84,14 +86,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
@@ -169,11 +171,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : G-2SJCVE8090 # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
